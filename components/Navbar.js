@@ -89,7 +89,8 @@ const Navbar = ({ manager }) => {
                     <Link href={"/"}>Home</Link>
                 </li>
                 <li className={`mx-4 cursor-pointer ${router.pathname == '/requests' ? `hidden` : 'block'}`}>
-                    <Link href={"/requests"}>Request's</Link>
+                    <Link href={"/requests"}>Request&apos;s</Link>
+                  
                 </li>
                 <li className={`mx-4 cursor-pointer ${router.pathname == '/profile' ? `hidden` : 'block'}  ${account != '' ? `block` : `hidden`}`}>
                     <Link href={"/profile"}>Profile</Link>
@@ -126,7 +127,7 @@ const Navbar = ({ manager }) => {
                             <Link href={"/"}>Home</Link>
                         </li>
                         <li className="my-2 text-lg cursor-pointer">
-                            <Link href={"/requests"}>Request's</Link>
+                            <Link href={"/requests"}>Request&apos;s</Link>
                         </li>
                         <li className={`my-2 text-lg cursor-pointer ${account != '' ? `block` : `hidden`}`}>
                             <Link href={"/proflie"}>Profile</Link>
